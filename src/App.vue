@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <multi-form></multi-form>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MultiForm from './components/MultiForm';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MultiForm
   }
 }
 </script>
